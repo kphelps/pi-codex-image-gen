@@ -2,9 +2,13 @@
   "name": "pi-codex-image-gen",
   "version": "0.1.0",
   "description": "Pi extension that generates images through the Codex Responses endpoint using openai-codex auth.",
-  "private": true,
   "type": "module",
-  "keywords": ["pi-package", "pi-extension", "image-generation", "codex"],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "image-generation",
+    "codex"
+  ],
   "peerDependencies": {
     "@mariozechner/pi-ai": "*",
     "@mariozechner/pi-coding-agent": "*",
@@ -12,7 +16,11 @@
     "typebox": "*"
   },
   "pi": {
-    "extensions": ["./extensions/index.ts"],
-    "skills": ["./skills"]
+    "extensions": [
+      "./extensions/index.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
   }
 }
